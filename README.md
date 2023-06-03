@@ -8,6 +8,16 @@ A small package that does stuff
 pip install gamer3514
 ```
 
+## Usage
+
+```python
+from gamer3514 import api
+#NSFW Detection
+api.detectnsfw(imageurl, apikey)
+#Profanity Check
+api.profanitycheck(text, apikey)
+```
+
 ## Resources
 
 - [Discord server](https://discord.gg/3qvpkgWSbF)
