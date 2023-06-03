@@ -35,4 +35,3 @@ def profanitycheck(text: str, apikey: str):
         else:
             return result[0]['Profanity']
     raise Exception("Unknown error occured, please contact support")
-print(profanitycheck("WOW", "jbdanowdlekkmtvbsrlkdphv"))
