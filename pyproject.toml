@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "gamer3514"
+version = "0.0.1"
+authors = [
+  { name="Gamer3514", email="gamer@sillydev.co.uk" },
+]
+description = "A small package that does stuff"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/thegamer3514/gamer3514"
+"Bug Tracker" = "https://github.com/thegamer3514/gamer3514/issues"
