@@ -16,6 +16,12 @@ from gamer3514 import api
 api.detectnsfw(imageurl, apikey)
 #Profanity Check
 api.profanitycheck(text, apikey)
+#Text To Braille
+api.texttobraille(text)
+#Random Number
+api.randomnumber(length)
+#Random Topic
+api.randomtopic()
 ```
 
 ## Resources
