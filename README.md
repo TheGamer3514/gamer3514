@@ -10,6 +10,7 @@ pip install gamer3514
 
 ## Usage
 
+### Api
 ```python
 from gamer3514 import api
 #NSFW Detection
@@ -22,6 +23,21 @@ api.texttobraille(text)
 api.randomnumber(length)
 #Random Topic
 api.randomtopic()
+#Random Cat Image
+api.cat(filepath, apikey)
+#Random Cat Gif
+api.catgif(filepath, apikey)
+#Random Dog Image
+api.dog(filepath, apikey)
+#Donald Tweet
+api.donaldtweet(filepath, text)
+```
+
+### Utils
+```python
+from gamer3514 import utils
+#Get Random Number
+utils.randomnumber()
 ```
 
 ## Resources
