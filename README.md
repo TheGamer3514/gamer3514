@@ -38,10 +38,31 @@ api.donaldtweet(filepath, text)
 from gamer3514 import utils
 #Get Random Number
 utils.randomnumber()
+#Generate Random Password
+utils.genpassword(length)
+```
+
+### Random Stuff (No Category)
+```python
+from gamer3514 import randomstuff
+#Huricane Speed To Category
+randomstuff.hurricanecategory(speed)
+#Random Number (Yes Again)
+randomstuff.randomnumber()
+#Screen Time Percentage
+randomstuff.screentime(hours)
+#Get Percentage
+randomstuff.getpercentage(number, percentage)
+#File Spam
+randomstuff.filespam(filepath, sentence, amount)
+#Print Spam
+randomstuff.printspam(sentence, amount)
+#Nice Print
+randomstuff.niceprint(sentence)
 ```
 
 ## Resources
 
 - [Discord server](https://discord.gg/3qvpkgWSbF)
-- [Free hosting](https://panel.sillydev.co.uk)
+- [Free hosting](https://sillydev.co.uk)
 - Contact me: gamer@sillydev.co.uk
